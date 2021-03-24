@@ -1,0 +1,34 @@
+	“Space Debris” is a garbage collection game – in space! 
+
+	You are a Private employed by a space station to help remove this space garbage from orbit around earth. 
+	On your first day, you are thrust out into the field and left to learn on the fly.
+
+	Just as you’re getting started, there’s an emergency – the old ISS is on a collision course with your space station. 
+	It’s up to you to gather the necessary parts and intercept it before time runs out. 
+
+	The game is laid out on a 5x5 grid with 16 available “tiles” for the player to walk around on. There are 4 different 
+	events that can happen on a tile:
+
+	1. The player has the option to pick up debris
+	  a. This costs them extra time, but increases the final score by 15 pts.
+	2. The player collects a required item to get into the ISS
+	3. The player collects extra jetpack fuel – you’ll need these to win the game!
+	4. The player must enter a series of letters in the correct order to dodge incoming debris. If they fail, it costs them extra time.
+	5. The player uses their collected items to get into the ISS and save the day! But beware, without all the required items, 
+	   you’ll waste valuable time traveling to the rendezvous point.
+
+
+	The player is equipped with a jetpack. At any time, the player can use ‘j’ for their movement to move 2 spaces for the cost of 
+	only 1 movement turn. This is tracked on the player HUD.
+
+	When the player enters the event (the ISS collision), the players HUD updates their “Oxygen” countdown to “Minutes”, since that 
+	is the pressing factor. 
+
+	Inventory items are added the top of the player’s HUD. Required items are marked with a “*”. Other items are randomly given a 
+	name from a predetermined list. The items are actual items listed on the Wikipedia page for space debris. There’s a limit of 
+	7 items, including the 3 required items to win the game. 
+
+	It is necessary to save the station to win the game. However, it is possible to beat the high score of saving the station by 
+	only collecting 4 debris items. Each debris item is 15 points and saving the station is 50 points.
+
+	The final score is outputted to the player, along with the score board that tracks all time high scores in a text file.
